@@ -20,7 +20,7 @@ public class PalindromeChecker {
     }
 
     public static String transformInput(String input) {
-        input = input.toLowerCase(); // Convert to lowercase
+        input = input.toLowerCase();
         input = input.replaceAll("[^a-z]", "");
         return input;
     }
